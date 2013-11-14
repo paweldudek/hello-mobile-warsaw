@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		431F54981834E8D00052D494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 431F54971834E8D00052D494 /* main.m */; };
 		432F841818300AF70077AA9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432F841718300AF70077AA9F /* UIKit.framework */; };
 		432F841A18300AF70077AA9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432F841918300AF70077AA9F /* Foundation.framework */; };
 		432F841C18300AF70077AA9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432F841B18300AF70077AA9F /* CoreGraphics.framework */; };
@@ -16,9 +17,33 @@
 		432F842A18300AF70077AA9F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 432F842918300AF70077AA9F /* Default.png */; };
 		432F842C18300AF70077AA9F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 432F842B18300AF70077AA9F /* Default@2x.png */; };
 		432F842E18300AF70077AA9F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 432F842D18300AF70077AA9F /* Default-568h@2x.png */; };
+		432F8435183013380077AA9F /* HelloMobileWarsawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432F8434183013380077AA9F /* HelloMobileWarsawViewController.xib */; };
+		43EDE70A18314D1400A77A56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 432F842718300AF70077AA9F /* AppDelegate.m */; };
+		43EDE70B18314D1400A77A56 /* HelloMobileWarsawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9564CFFEDF0D41CD6E06 /* HelloMobileWarsawViewController.m */; };
+		43EDE70C18314D1400A77A56 /* HelloWorldDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A95EE4127807B414B73D6 /* HelloWorldDownloader.m */; };
+		43EDE70E18314D1400A77A56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432F841718300AF70077AA9F /* UIKit.framework */; };
+		43EDE70F18314D1400A77A56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432F841918300AF70077AA9F /* Foundation.framework */; };
+		43EDE71018314D1400A77A56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 432F841B18300AF70077AA9F /* CoreGraphics.framework */; };
+		43EDE71218314D1400A77A56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 432F842018300AF70077AA9F /* InfoPlist.strings */; };
+		43EDE71318314D1400A77A56 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 432F842918300AF70077AA9F /* Default.png */; };
+		43EDE71418314D1400A77A56 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 432F842B18300AF70077AA9F /* Default@2x.png */; };
+		43EDE71518314D1400A77A56 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 432F842D18300AF70077AA9F /* Default-568h@2x.png */; };
+		43EDE71618314D1400A77A56 /* HelloMobileWarsawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432F8434183013380077AA9F /* HelloMobileWarsawViewController.xib */; };
+		43EDE71718314D1400A77A56 /* Me2.png in Resources */ = {isa = PBXBuildFile; fileRef = B27A91A9BB2859388D690437 /* Me2.png */; };
+		B27A902E5B83E6CF643E6F47 /* HelloMobileWarsawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9564CFFEDF0D41CD6E06 /* HelloMobileWarsawViewController.m */; };
+		B27A94FB506A2543D60A0EEC /* HelloWorldDownloaderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A92F81E3A2EBCD7155654 /* HelloWorldDownloaderSpec.m */; };
+		B27A963FAE798E2E6832BDD3 /* HelloMobileWarsawViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9DC58039FA4968241089 /* HelloMobileWarsawViewControllerSpec.m */; };
+		B27A967A5B4541B364A9B7A0 /* FakeHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9E407CCBA46C82D00BCB /* FakeHTTPSessionManager.m */; };
+		B27A9E37D84FC4D8542E706E /* Me2.png in Resources */ = {isa = PBXBuildFile; fileRef = B27A91A9BB2859388D690437 /* Me2.png */; };
+		B27A9F9518CEEAD5A2183B5D /* HelloWorldDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A95EE4127807B414B73D6 /* HelloWorldDownloader.m */; };
+		E84F29F86C6641C7A07FD9B6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C43E76608E401D9442A83A /* libPods.a */; };
+		FC8FEE766D0C4635A784E1F2 /* libPods-specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 000B02A7F9084141A8963BAB /* libPods-specs.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000B02A7F9084141A8963BAB /* libPods-specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		156DB47FFE244D0EBE1B345E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		431F54971834E8D00052D494 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		432F841418300AF70077AA9F /* HelloMobileWarsaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMobileWarsaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		432F841718300AF70077AA9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		432F841918300AF70077AA9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +57,20 @@
 		432F842918300AF70077AA9F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		432F842B18300AF70077AA9F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		432F842D18300AF70077AA9F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		432F8434183013380077AA9F /* HelloMobileWarsawViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloMobileWarsawViewController.xib; sourceTree = "<group>"; };
+		43EDE71B18314D1400A77A56 /* HelloMobileWarsawSpec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMobileWarsawSpec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43EDE71C18314D1400A77A56 /* HelloMobileWarsawSpecsInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = HelloMobileWarsawSpecsInfo.plist; path = /Users/eldudi/Workspace/HelloMobileWarsaw/HelloMobileWarsawSpecsInfo.plist; sourceTree = "<absolute>"; };
+		67C43E76608E401D9442A83A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27A91A9BB2859388D690437 /* Me2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Me2.png; sourceTree = "<group>"; };
+		B27A92F81E3A2EBCD7155654 /* HelloWorldDownloaderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldDownloaderSpec.m; sourceTree = "<group>"; };
+		B27A9564CFFEDF0D41CD6E06 /* HelloMobileWarsawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloMobileWarsawViewController.m; sourceTree = "<group>"; };
+		B27A95EE4127807B414B73D6 /* HelloWorldDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldDownloader.m; sourceTree = "<group>"; };
+		B27A9A37D2593D5BF97857D6 /* HelloWorldDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldDownloader.h; sourceTree = "<group>"; };
+		B27A9C4D506F96CB63F3246B /* HelloMobileWarsawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloMobileWarsawViewController.h; sourceTree = "<group>"; };
+		B27A9D24FC791044BA9D6707 /* FakeHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeHTTPSessionManager.h; sourceTree = "<group>"; };
+		B27A9DC58039FA4968241089 /* HelloMobileWarsawViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloMobileWarsawViewControllerSpec.m; sourceTree = "<group>"; };
+		B27A9E407CCBA46C82D00BCB /* FakeHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeHTTPSessionManager.m; sourceTree = "<group>"; };
+		F73DAF13A87B4E718C683B60 /* Pods-specs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-specs.xcconfig"; path = "Pods/Pods-specs.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +81,18 @@
 				432F841818300AF70077AA9F /* UIKit.framework in Frameworks */,
 				432F841A18300AF70077AA9F /* Foundation.framework in Frameworks */,
 				432F841C18300AF70077AA9F /* CoreGraphics.framework in Frameworks */,
+				E84F29F86C6641C7A07FD9B6 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43EDE70D18314D1400A77A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43EDE70E18314D1400A77A56 /* UIKit.framework in Frameworks */,
+				43EDE70F18314D1400A77A56 /* Foundation.framework in Frameworks */,
+				43EDE71018314D1400A77A56 /* CoreGraphics.framework in Frameworks */,
+				FC8FEE766D0C4635A784E1F2 /* libPods-specs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +102,12 @@
 		432F840B18300AF70077AA9F = {
 			isa = PBXGroup;
 			children = (
+				43EDE71D18314D2000A77A56 /* HelloMobileWarsawSpecs */,
 				432F841D18300AF70077AA9F /* HelloMobileWarsaw */,
 				432F841618300AF70077AA9F /* Frameworks */,
 				432F841518300AF70077AA9F /* Products */,
+				F73DAF13A87B4E718C683B60 /* Pods-specs.xcconfig */,
+				156DB47FFE244D0EBE1B345E /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				432F841418300AF70077AA9F /* HelloMobileWarsaw.app */,
+				43EDE71B18314D1400A77A56 /* HelloMobileWarsawSpec.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +126,8 @@
 				432F841718300AF70077AA9F /* UIKit.framework */,
 				432F841918300AF70077AA9F /* Foundation.framework */,
 				432F841B18300AF70077AA9F /* CoreGraphics.framework */,
+				000B02A7F9084141A8963BAB /* libPods-specs.a */,
+				67C43E76608E401D9442A83A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -81,6 +138,8 @@
 				432F842618300AF70077AA9F /* AppDelegate.h */,
 				432F842718300AF70077AA9F /* AppDelegate.m */,
 				432F841E18300AF70077AA9F /* Supporting Files */,
+				B27A98AA5585356C53DA8773 /* View Controllers */,
+				B27A914EB31D2892F51F9138 /* Resources */,
 			);
 			path = HelloMobileWarsaw;
 			sourceTree = "<group>";
@@ -99,6 +158,63 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		43EDE71D18314D2000A77A56 /* HelloMobileWarsawSpecs */ = {
+			isa = PBXGroup;
+			children = (
+				43EDE71E18314D3500A77A56 /* Supporting Files */,
+				B27A94AD0173863CDB930B76 /* Fake Objects */,
+			);
+			path = HelloMobileWarsawSpecs;
+			sourceTree = "<group>";
+		};
+		43EDE71E18314D3500A77A56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				431F54971834E8D00052D494 /* main.m */,
+				43EDE71C18314D1400A77A56 /* HelloMobileWarsawSpecsInfo.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B27A914EB31D2892F51F9138 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B27A91A9BB2859388D690437 /* Me2.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B27A94AD0173863CDB930B76 /* Fake Objects */ = {
+			isa = PBXGroup;
+			children = (
+				B27A9E407CCBA46C82D00BCB /* FakeHTTPSessionManager.m */,
+				B27A9D24FC791044BA9D6707 /* FakeHTTPSessionManager.h */,
+			);
+			path = "Fake Objects";
+			sourceTree = "<group>";
+		};
+		B27A98AA5585356C53DA8773 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B27A9564CFFEDF0D41CD6E06 /* HelloMobileWarsawViewController.m */,
+				B27A9C4D506F96CB63F3246B /* HelloMobileWarsawViewController.h */,
+				B27A9A918E6861C17D47C111 /* Downloader */,
+				432F8434183013380077AA9F /* HelloMobileWarsawViewController.xib */,
+				B27A9DC58039FA4968241089 /* HelloMobileWarsawViewControllerSpec.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B27A9A918E6861C17D47C111 /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				B27A95EE4127807B414B73D6 /* HelloWorldDownloader.m */,
+				B27A9A37D2593D5BF97857D6 /* HelloWorldDownloader.h */,
+				B27A92F81E3A2EBCD7155654 /* HelloWorldDownloaderSpec.m */,
+			);
+			path = Downloader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 432F843118300AF70077AA9F /* Build configuration list for PBXNativeTarget "HelloMobileWarsaw" */;
 			buildPhases = (
+				1BB487618FE74589A0E13B90 /* Check Pods Manifest.lock */,
 				432F841018300AF70077AA9F /* Sources */,
 				432F841118300AF70077AA9F /* Frameworks */,
 				432F841218300AF70077AA9F /* Resources */,
+				FBFB2A7FBCEA406599520039 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -117,6 +235,25 @@
 			name = HelloMobileWarsaw;
 			productName = HelloMobileWarsaw;
 			productReference = 432F841418300AF70077AA9F /* HelloMobileWarsaw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43EDE70718314D1400A77A56 /* HelloMobileWarsawSpecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43EDE71818314D1400A77A56 /* Build configuration list for PBXNativeTarget "HelloMobileWarsawSpecs" */;
+			buildPhases = (
+				B3224400427B42C39BE42AE7 /* Check Pods Manifest.lock */,
+				43EDE70818314D1400A77A56 /* Sources */,
+				43EDE70D18314D1400A77A56 /* Frameworks */,
+				43EDE71118314D1400A77A56 /* Resources */,
+				CF82C1D213C748B496C9C932 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMobileWarsawSpecs;
+			productName = HelloMobileWarsaw;
+			productReference = 43EDE71B18314D1400A77A56 /* HelloMobileWarsawSpec.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,6 +278,7 @@
 			projectRoot = "";
 			targets = (
 				432F841318300AF70077AA9F /* HelloMobileWarsaw */,
+				43EDE70718314D1400A77A56 /* HelloMobileWarsawSpecs */,
 			);
 		};
 /* End PBXProject section */
@@ -154,10 +292,88 @@
 				432F842A18300AF70077AA9F /* Default.png in Resources */,
 				432F842C18300AF70077AA9F /* Default@2x.png in Resources */,
 				432F842E18300AF70077AA9F /* Default-568h@2x.png in Resources */,
+				432F8435183013380077AA9F /* HelloMobileWarsawViewController.xib in Resources */,
+				B27A9E37D84FC4D8542E706E /* Me2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43EDE71118314D1400A77A56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43EDE71218314D1400A77A56 /* InfoPlist.strings in Resources */,
+				43EDE71318314D1400A77A56 /* Default.png in Resources */,
+				43EDE71418314D1400A77A56 /* Default@2x.png in Resources */,
+				43EDE71518314D1400A77A56 /* Default-568h@2x.png in Resources */,
+				43EDE71618314D1400A77A56 /* HelloMobileWarsawViewController.xib in Resources */,
+				43EDE71718314D1400A77A56 /* Me2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BB487618FE74589A0E13B90 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3224400427B42C39BE42AE7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF82C1D213C748B496C9C932 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-specs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBFB2A7FBCEA406599520039 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		432F841018300AF70077AA9F /* Sources */ = {
@@ -166,6 +382,22 @@
 			files = (
 				432F842418300AF70077AA9F /* main.m in Sources */,
 				432F842818300AF70077AA9F /* AppDelegate.m in Sources */,
+				B27A902E5B83E6CF643E6F47 /* HelloMobileWarsawViewController.m in Sources */,
+				B27A9F9518CEEAD5A2183B5D /* HelloWorldDownloader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43EDE70818314D1400A77A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43EDE70A18314D1400A77A56 /* AppDelegate.m in Sources */,
+				43EDE70B18314D1400A77A56 /* HelloMobileWarsawViewController.m in Sources */,
+				43EDE70C18314D1400A77A56 /* HelloWorldDownloader.m in Sources */,
+				B27A94FB506A2543D60A0EEC /* HelloWorldDownloaderSpec.m in Sources */,
+				B27A963FAE798E2E6832BDD3 /* HelloMobileWarsawViewControllerSpec.m in Sources */,
+				431F54981834E8D00052D494 /* main.m in Sources */,
+				B27A967A5B4541B364A9B7A0 /* FakeHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +473,7 @@
 		};
 		432F843218300AF70077AA9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156DB47FFE244D0EBE1B345E /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloMobileWarsaw/HelloMobileWarsaw-Prefix.pch";
@@ -252,11 +485,36 @@
 		};
 		432F843318300AF70077AA9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156DB47FFE244D0EBE1B345E /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloMobileWarsaw/HelloMobileWarsaw-Prefix.pch";
 				INFOPLIST_FILE = "HelloMobileWarsaw/HelloMobileWarsaw-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		43EDE71918314D1400A77A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73DAF13A87B4E718C683B60 /* Pods-specs.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMobileWarsaw/HelloMobileWarsaw-Prefix.pch";
+				INFOPLIST_FILE = HelloMobileWarsawSpecsInfo.plist;
+				PRODUCT_NAME = HelloMobileWarsawSpec;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		43EDE71A18314D1400A77A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73DAF13A87B4E718C683B60 /* Pods-specs.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMobileWarsaw/HelloMobileWarsaw-Prefix.pch";
+				INFOPLIST_FILE = HelloMobileWarsawSpecsInfo.plist;
+				PRODUCT_NAME = HelloMobileWarsawSpec;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -280,6 +538,16 @@
 				432F843318300AF70077AA9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43EDE71818314D1400A77A56 /* Build configuration list for PBXNativeTarget "HelloMobileWarsawSpecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43EDE71918314D1400A77A56 /* Debug */,
+				43EDE71A18314D1400A77A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

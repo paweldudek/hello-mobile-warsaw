@@ -1,0 +1,11 @@
+platform :ios, '6.0'
+
+pod 'AFNetworking'
+
+target :specs do
+      link_with 'HelloMobileWarsawSpecs'
+      pod 'Expecta', '~> 0.2.0'
+      pod 'Cedar-Taptera', '0.0.5'
+      pod 'OCMockito'
+end
+
