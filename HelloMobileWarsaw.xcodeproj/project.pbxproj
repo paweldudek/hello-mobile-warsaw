@@ -31,12 +31,12 @@
 		43EDE71618314D1400A77A56 /* HelloMobileWarsawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432F8434183013380077AA9F /* HelloMobileWarsawViewController.xib */; };
 		43EDE71718314D1400A77A56 /* Me2.png in Resources */ = {isa = PBXBuildFile; fileRef = B27A91A9BB2859388D690437 /* Me2.png */; };
 		B27A902E5B83E6CF643E6F47 /* HelloMobileWarsawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9564CFFEDF0D41CD6E06 /* HelloMobileWarsawViewController.m */; };
-		B27A93DF671CF2545EE00EE2 /* HelloMobileWarsawCacherSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A980D307D55D0D6DBC604 /* HelloMobileWarsawCacherSpec.m */; };
+		B27A9294F0205DE085A17C0C /* HelloMobileWarsawCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A92A994EB4CB20850B20B /* HelloMobileWarsawCacher.m */; };
+		B27A94D2BB6743C73CFD16BD /* HelloMobileWarsawCacherSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A94914C9A7E5A126738A7 /* HelloMobileWarsawCacherSpec.m */; };
 		B27A94FB506A2543D60A0EEC /* HelloWorldDownloaderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A92F81E3A2EBCD7155654 /* HelloWorldDownloaderSpec.m */; };
 		B27A963FAE798E2E6832BDD3 /* HelloMobileWarsawViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9DC58039FA4968241089 /* HelloMobileWarsawViewControllerSpec.m */; };
 		B27A967A5B4541B364A9B7A0 /* FakeHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A9E407CCBA46C82D00BCB /* FakeHTTPSessionManager.m */; };
-		B27A99AC9816BB4649217970 /* HelloMobileWarsawCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A96AAA18BF1BA83EFCB92 /* HelloMobileWarsawCacher.m */; };
-		B27A9D8672F788D53033D040 /* HelloMobileWarsawCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A96AAA18BF1BA83EFCB92 /* HelloMobileWarsawCacher.m */; };
+		B27A9B903A75098608788295 /* HelloMobileWarsawCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A92A994EB4CB20850B20B /* HelloMobileWarsawCacher.m */; };
 		B27A9E37D84FC4D8542E706E /* Me2.png in Resources */ = {isa = PBXBuildFile; fileRef = B27A91A9BB2859388D690437 /* Me2.png */; };
 		B27A9F9518CEEAD5A2183B5D /* HelloWorldDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B27A95EE4127807B414B73D6 /* HelloWorldDownloader.m */; };
 		E84F29F86C6641C7A07FD9B6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C43E76608E401D9442A83A /* libPods.a */; };
@@ -65,16 +65,16 @@
 		43EDE71C18314D1400A77A56 /* HelloMobileWarsawSpecsInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = HelloMobileWarsawSpecsInfo.plist; path = /Users/eldudi/Workspace/HelloMobileWarsaw/HelloMobileWarsawSpecsInfo.plist; sourceTree = "<absolute>"; };
 		67C43E76608E401D9442A83A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27A91A9BB2859388D690437 /* Me2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Me2.png; sourceTree = "<group>"; };
+		B27A91FEE23EDA3AC44D1B15 /* HelloMobileWarsawCacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloMobileWarsawCacher.h; sourceTree = "<group>"; };
+		B27A92A994EB4CB20850B20B /* HelloMobileWarsawCacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloMobileWarsawCacher.m; sourceTree = "<group>"; };
 		B27A92F81E3A2EBCD7155654 /* HelloWorldDownloaderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldDownloaderSpec.m; sourceTree = "<group>"; };
+		B27A94914C9A7E5A126738A7 /* HelloMobileWarsawCacherSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloMobileWarsawCacherSpec.m; sourceTree = "<group>"; };
 		B27A9564CFFEDF0D41CD6E06 /* HelloMobileWarsawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloMobileWarsawViewController.m; sourceTree = "<group>"; };
 		B27A95EE4127807B414B73D6 /* HelloWorldDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldDownloader.m; sourceTree = "<group>"; };
-		B27A96AAA18BF1BA83EFCB92 /* HelloMobileWarsawCacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloMobileWarsawCacher.m; sourceTree = "<group>"; };
-		B27A980D307D55D0D6DBC604 /* HelloMobileWarsawCacherSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloMobileWarsawCacherSpec.m; sourceTree = "<group>"; };
 		B27A9A37D2593D5BF97857D6 /* HelloWorldDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldDownloader.h; sourceTree = "<group>"; };
 		B27A9C4D506F96CB63F3246B /* HelloMobileWarsawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloMobileWarsawViewController.h; sourceTree = "<group>"; };
 		B27A9D24FC791044BA9D6707 /* FakeHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeHTTPSessionManager.h; sourceTree = "<group>"; };
 		B27A9DC58039FA4968241089 /* HelloMobileWarsawViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloMobileWarsawViewControllerSpec.m; sourceTree = "<group>"; };
-		B27A9E1FAA6D67173C66ED9F /* HelloMobileWarsawCacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloMobileWarsawCacher.h; sourceTree = "<group>"; };
 		B27A9E407CCBA46C82D00BCB /* FakeHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeHTTPSessionManager.m; sourceTree = "<group>"; };
 		F73DAF13A87B4E718C683B60 /* Pods-specs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-specs.xcconfig"; path = "Pods/Pods-specs.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -207,9 +207,7 @@
 				B27A9A918E6861C17D47C111 /* Downloader */,
 				432F8434183013380077AA9F /* HelloMobileWarsawViewController.xib */,
 				B27A9DC58039FA4968241089 /* HelloMobileWarsawViewControllerSpec.m */,
-				B27A96AAA18BF1BA83EFCB92 /* HelloMobileWarsawCacher.m */,
-				B27A9E1FAA6D67173C66ED9F /* HelloMobileWarsawCacher.h */,
-				B27A980D307D55D0D6DBC604 /* HelloMobileWarsawCacherSpec.m */,
+				B27A9DFB5FB78F871E8E65A6 /* Cacher */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -222,6 +220,16 @@
 				B27A92F81E3A2EBCD7155654 /* HelloWorldDownloaderSpec.m */,
 			);
 			path = Downloader;
+			sourceTree = "<group>";
+		};
+		B27A9DFB5FB78F871E8E65A6 /* Cacher */ = {
+			isa = PBXGroup;
+			children = (
+				B27A91FEE23EDA3AC44D1B15 /* HelloMobileWarsawCacher.h */,
+				B27A94914C9A7E5A126738A7 /* HelloMobileWarsawCacherSpec.m */,
+				B27A92A994EB4CB20850B20B /* HelloMobileWarsawCacher.m */,
+			);
+			path = Cacher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,7 +401,7 @@
 				432F842818300AF70077AA9F /* AppDelegate.m in Sources */,
 				B27A902E5B83E6CF643E6F47 /* HelloMobileWarsawViewController.m in Sources */,
 				B27A9F9518CEEAD5A2183B5D /* HelloWorldDownloader.m in Sources */,
-				B27A9D8672F788D53033D040 /* HelloMobileWarsawCacher.m in Sources */,
+				B27A9294F0205DE085A17C0C /* HelloMobileWarsawCacher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,8 +416,8 @@
 				B27A963FAE798E2E6832BDD3 /* HelloMobileWarsawViewControllerSpec.m in Sources */,
 				431F54981834E8D00052D494 /* main.m in Sources */,
 				B27A967A5B4541B364A9B7A0 /* FakeHTTPSessionManager.m in Sources */,
-				B27A99AC9816BB4649217970 /* HelloMobileWarsawCacher.m in Sources */,
-				B27A93DF671CF2545EE00EE2 /* HelloMobileWarsawCacherSpec.m in Sources */,
+				B27A94D2BB6743C73CFD16BD /* HelloMobileWarsawCacherSpec.m in Sources */,
+				B27A9B903A75098608788295 /* HelloMobileWarsawCacher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

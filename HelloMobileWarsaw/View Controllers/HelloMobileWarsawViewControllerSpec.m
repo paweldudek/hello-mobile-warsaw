@@ -6,6 +6,7 @@
 
 #define EXP_SHORTHAND
 #import "Expecta.h"
+#import "HelloMobileWarsawCacher.h"
 
 SPEC_BEGIN(HelloMobileWarsawViewControllerSpec)
 
@@ -14,6 +15,10 @@ describe(@"HelloMobileWarsawViewController", ^{
 
     beforeEach(^{
         mobileWarsawViewController = [[HelloMobileWarsawViewController alloc] init];
+    });
+
+    it(@"should have a cacher", ^{
+        expect(mobileWarsawViewController.cacher).to.beKindOf([HelloMobileWarsawCacher class]);
     });
 
     describe(@"downloader", ^{
@@ -80,12 +85,23 @@ describe(@"HelloMobileWarsawViewController", ^{
 
         describe(@"did download text", ^{
 
+            __block id mockCacher;
+
+            beforeEach(^{
+                mockCacher = mock([HelloMobileWarsawCacher class]);
+                [mobileWarsawViewController setValue:mockCacher forKey:@"cacher"];
+            });
+
             action(^{
                 [mobileWarsawViewController helloWorldDownloader:nil didDownloadHelloWorldText:@"Fixture Text"];
             });
 
             it(@"should update the text on text field to downloaded text", ^{
                 expect(mobileWarsawViewController.textLabel.text).to.equal(@"Fixture Text");
+            });
+
+            it(@"should tell the cacher to cache the text", ^{
+                [verify(mockCacher) cacheHelloWorldText:@"Fixture Text"];
             });
         });
 

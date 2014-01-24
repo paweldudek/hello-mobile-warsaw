@@ -23,9 +23,13 @@
 
 #pragma mark - UIViewController Specific
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.textLabel.text = [[self cacher] cachedHelloWorldText];
+}
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.textLabel.text = [[self cacher] cachedHelloWorldText];
 
     [[self helloWorldDownloader] downloadHelloWorldText];
 }
