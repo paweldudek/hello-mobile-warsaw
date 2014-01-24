@@ -16,4 +16,5 @@
 - (void)simulateSuccessWithResponse:(id)response;
 
 - (void)simulateFailureWithError:(NSError *)error;
+
 @end

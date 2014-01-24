@@ -4,6 +4,7 @@
 
 
 #import "HelloMobileWarsawViewController.h"
+#import "HelloMobileWarsawCacher.h"
 
 
 @implementation HelloMobileWarsawViewController
@@ -13,6 +14,8 @@
     if (self) {
         _helloWorldDownloader = [[HelloWorldDownloader alloc] init];
         self.helloWorldDownloader.delegate = self;
+
+        _cacher = [[HelloMobileWarsawCacher alloc] init];
     }
 
     return self;
@@ -22,6 +25,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    self.textLabel.text = [[self cacher] cachedHelloWorldText];
 
     [[self helloWorldDownloader] downloadHelloWorldText];
 }
@@ -29,6 +33,7 @@
 #pragma mark - HelloWorldDownloader Delegate
 
 - (void)helloWorldDownloader:(HelloWorldDownloader *)downloader didDownloadHelloWorldText:(NSString *)text {
+    [[self cacher] cacheHelloWorldText:text];
     self.textLabel.text = text;
 }
 
